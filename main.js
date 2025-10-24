@@ -39,8 +39,6 @@ function queLetra(frase2, letraFra){
     for(let i = 0; i < guardar.length; ++i){
         if(guardar[i] == letraFra){
             almacen.push(guardar[i])
-        }else{
-            return "No hay esa letra"
         }
     }
     let result = almacen.length;
@@ -58,8 +56,6 @@ console.log(queLetra(frase2,letraFra));
         mientras i sea menor que la cantidad de datos de guardar
             si guardar posicion i es igual a letraFra
                 alamcena guardar posicion i en alamacen
-            sino
-                Escribe "No hay esa letra"
         lee almacen
         cuanta los datos dentro de alamacen
         envia los datos de alamcen
